@@ -1,0 +1,16 @@
+//Write a program to find if a given number is divisible by 3, without using the ‘%’ operator explicitly (like N % 3 == 0)
+
+declare n=0
+print'enter the number'
+input num(n)
+WHILE n>0
+    n = n - 3
+END LOOP
+
+IF n=0 THEN
+    OUTPUT "True"
+ELSE
+    OUTPUT "False"
+END IF
+
+END
