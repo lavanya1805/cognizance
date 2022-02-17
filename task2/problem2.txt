@@ -1,0 +1,27 @@
+//write a program that prints Nth fibonacci number
+
+declare variable 
+a=first fibonacci number
+b=second fibonacci number
+n=entered value
+i=integer
+
+intialize variable
+a=0
+b=1
+i=0
+
+WHILE i<n
+
+if
+i=i+1
+b=a+b
+a=b-a
+
+else 
+output a
+
+END LOOP
+
+END ELSE
+END IF
